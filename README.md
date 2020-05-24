@@ -67,7 +67,7 @@ Ti and Tout are initial and refined illumination maps, img_out and Iout are enha
 The official website for the project can be found [here](https://sites.google.com/view/xjguo/lime). The demo software provided by the authors contains `.p` mat files, for which source code can't be read.
 
 ## Citation
-If you find this helpful, please cite the following work:
+If you find this code helpful and use it in your research, please cite the following work:
 ```
 @ARTICLE{guo_lime,
   author={X. {Guo} and Y. {Li} and H. {Ling}},
