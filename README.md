@@ -1,4 +1,4 @@
-# LIME: Low-light Image Enhancement
+# LIME: Low-light Image Enhancement Via Illumination
 
 Course Project for Digital Image Processing (ECN-316). <br>
 
