@@ -1,6 +1,6 @@
 # LIME: Low-light Image Enhancement
 
-Course Project for Digital Image Processing (ECN-316), completed under the supervision of Prof. Saumik Bhattacharya. <br>
+Course Project for Digital Image Processing (ECN-316). <br>
 
 Report can be found [here](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view). <br>
 
@@ -29,8 +29,16 @@ Use the table mentioned below for selecting optimum values of mu, rho, ds, ss fo
 flag = 1 to view the results. 
 Ti and Tout are initial and refined illumination maps, img_out and Iout are enhanced and denoised results.
 ```
+## Results
 
- ### Table for optimized hyperparameters
+<img width = "100%" src = "assets/8_combined.png" />
+
+* First column: Low-light images, **second column**: heat map of initial illumination map, **third column**: heat map of estimated illumination map, **fourth column**: enhanced results, fifth column: denoised results via bilateral filtering (final enhanced result). *
+
+<p align = "left"><img width = "100%" src = "assets/datasets_results.png"></p>
+
+
+### Table for optimized hyperparameters
 
 |	Name	| mu	| rho	| ds	| ss | 
 | --- | --- | --- | --- | --- |
