@@ -9,7 +9,7 @@ This is an implementation of the paper, "LIME: Low-Light Image Enhancement via I
 ## How to Use 
 ### Clone the repository:
 ```
-git clone https://github.com/estija/LIME-Implementation.git
+git clone https://github.com/estija/LIME.git
 ```
 
 &nbsp; Open MATLAB, go to the git repository folder.
