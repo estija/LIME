@@ -35,7 +35,6 @@ Ti and Tout are initial and refined illumination maps, img_out and Iout are enha
 
 <p align = "left"><img width = "100%" src = "assets/datasets_results.png"></p>
 
-
 ### Table for optimized hyperparameters
 
 |	Name	| mu	| rho	| ds	| ss | 
