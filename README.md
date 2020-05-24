@@ -1,16 +1,19 @@
 # LIME: Low-light Image Enhancement
 
-Course Project for Digital Image Processing (ECN-316). <br>
+This is an implementation of the paper, "LIME: Low-Light Image Enhancement via Illumination Map Estimation". It was done as a course project for Digital Image Processing (ECN-316).
 
-The report can be found [here](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view). <br>
-The paper can be found [here](https://ieeexplore.ieee.org/document/7782813). <br>
+* The project report can be found [here](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view).
+* The paper can be found [here](https://ieeexplore.ieee.org/document/7782813).
+* The official website for the project can be found [here](https://sites.google.com/view/xjguo/lime). The demo software provided by the authors contains `.p` mat files, for which source code can't be read.
 
 ## How to Use 
 ### Clone the repository:
 ```
 git clone https://github.com/estija/LIME-Implementation.git
-Open matlab, go to the git repository folder.
 ```
+
+&nbsp; Open MATLAB, go to the git repository folder.
+
 ### Add paths
 &nbsp; Run the following to the MATLAB command window:
 ```
@@ -23,21 +26,13 @@ addpath('./imgs');
 ```
 img_in = imread('x.bmp'); 
 [Ti, Tout, img_out, Iout] = lime_main_module(img_in, mu, rho, ds, ss, flag); 
-
-
-x: some image from imgs
-Use the table mentioned below for selecting optimum values of mu, rho, ds, ss for this image values of hyperparameters.
-flag = 1 to view the results. 
-Ti and Tout are initial and refined illumination maps, img_out and Iout are enhanced and denoised results.
 ```
-## Results
-<img width = "100%" src = "assets/8_combined.png" />
 
-> **First column**: Low-light images, **second column**: heat map of initial illumination map, **third column**: heat map of estimated illumination map, **fourth column**: enhanced results, fifth column: denoised results via bilateral filtering. 
+* `x` is some image from `imgs`
+* `flag = 1` to view the results. 
+* `Ti` and `Tout` are initial and refined illumination maps, `img_out` and `Iout` are enhanced and denoised results.
+* Use the table mentioned below for selecting optimum values of `mu`, `rho`, `ds`, `ss` for each image.
 
-<p align = "left"><img width = "100%" src = "assets/datasets_results.png"></p>
-
-> Some low-light images from **ExDark dataset**, and results obtained from our implementation.
 ### Table for optimized hyperparameters
 
 |	Name	| mu	| rho	| ds	| ss | 
@@ -65,7 +60,14 @@ Ti and Tout are initial and refined illumination maps, img_out and Iout are enha
 
 * The code for BM3D in file `BM3D.m` as well as other files related to it have been downloaded and used only for the purpose of comparison with bilateral filtering.
 
-The official website for the project can be found [here](https://sites.google.com/view/xjguo/lime). The demo software provided by the authors contains `.p` mat files, for which source code can't be read.
+## Results
+<img width = "100%" src = "assets/8_combined.png" />
+
+> **First column**: Low-light images, **second column**: heat map of initial illumination map, **third column**: heat map of estimated illumination map, **fourth column**: enhanced results, fifth column: denoised results via bilateral filtering. 
+
+<p align = "left"><img width = "100%" src = "assets/datasets_results.png"></p>
+
+> Some low-light images from **ExDark dataset**, and results obtained from our implementation.
 
 ## Citation
 If you find this code helpful and use it in your research, please cite the following work:
