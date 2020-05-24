@@ -3,7 +3,7 @@
 Course Project for Digital Image Processing (ECN-316). <br>
 
 The report can be found [here](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view). <br>
-The paper can be found [here](https://ieeexplore.ieee.org/document/7782813). <br
+The paper can be found [here](https://ieeexplore.ieee.org/document/7782813). <br>
 
 ## How to Use 
 ### Clone the repository:
