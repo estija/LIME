@@ -7,7 +7,7 @@ Report can be found [here](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0
 ## How to Use 
 ### Clone the repository:
 ```
-git clone 
+git clone https://github.com/estija/LIME-Implementation.git
 Open matlab, go to the git repository folder.
 ```
 ### Add paths
