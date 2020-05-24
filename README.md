@@ -36,7 +36,7 @@ Ti and Tout are initial and refined illumination maps, img_out and Iout are enha
 
 <p align = "left"><img width = "100%" src = "assets/datasets_results.png"></p>
 
-> Some low-light images from ExDark dataset, and results obtained from our implementation.
+> Some low-light images from **ExDark dataset**, and results obtained from our implementation.
 ### Table for optimized hyperparameters
 
 |	Name	| mu	| rho	| ds	| ss | 
@@ -64,6 +64,7 @@ Ti and Tout are initial and refined illumination maps, img_out and Iout are enha
 
 * The code for BM3D in file `BM3D.m` as well as other files related to it have been downloaded and used only for the purpose of comparison with bilateral filtering.
 
+The official website for the project can be found [here](https://sites.google.com/view/xjguo/lime). The demo software provided by the authors contains `.p` mat files, for which source code can't be read.
 
 ## Citation
 If you find this helpful, please cite the following work:
