@@ -1,6 +1,6 @@
 # LIME: Low-light Image Enhancement
 
-This is an implementation of the paper, "LIME: Low-Light Image Enhancement via Illumination Map Estimation". It was done as a course project for Digital Image Processing (ECN-316).
+This is an implementation of the paper, "LIME: Low-Light Image Enhancement via Illumination Map Estimation". It was done as a course project for Digital Image Processing (ECN-316), under the guidance of Prof. Saumik Bhattacharya.
 
 * The project report can be found [here](https://drive.google.com/file/d/1aph-GUsr_Br2dMLTR3e0kYqAM5aThmj1/view).
 * The paper can be found [here](https://ieeexplore.ieee.org/document/7782813).
