@@ -30,11 +30,13 @@ flag = 1 to view the results.
 Ti and Tout are initial and refined illumination maps, img_out and Iout are enhanced and denoised results.
 ```
 ## Results
-![alt text](assets/8_combined.png "title")
-* hello *
+<img width = "100%" src = "assets/8_combined.png" />
+
+> **First column**: Low-light images, **second column**: heat map of initial illumination map, **third column**: heat map of estimated illumination map, **fourth column**: enhanced results, fifth column: denoised results via bilateral filtering (final enhanced result). 
 
 <p align = "left"><img width = "100%" src = "assets/datasets_results.png"></p>
 
+> Some low-light images from ExDark dataset, and results obtained from our implementation.
 ### Table for optimized hyperparameters
 
 |	Name	| mu	| rho	| ds	| ss | 
