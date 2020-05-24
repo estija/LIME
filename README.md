@@ -35,7 +35,7 @@ img_in = imread('x.bmp');
 
 ### Table for optimized hyperparameters
 
-|	Name	| mu	| rho	| ds	| ss | 
+|	Name	| `mu`	| `rho`	| `ds`	| `ss` | 
 | --- | --- | --- | --- | --- |
 |	building | 0.01	| 1.188	| 10	| 1.5 |
 |	cars	 | 0.045	| 1.134	| 5	| 0.75 |
