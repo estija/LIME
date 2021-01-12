@@ -50,9 +50,9 @@ img_in = imread('x.bmp');
 
 ### Information regarding other files: 
 
-* `lime_loop.m` is the file for tuning the parameters for the solver, i. e. alpha, mu, rho.
+* `lime_loop.m` is the file for tuning the parameters for the solver, i. e. `alpha`, `mu`, `rho`.
 
-* `lime_bf_loop.m` is the file for tuning the parameters for the bilateral filter, i. e. ds, ss. By default, `lime_bf_loop.m` is used for post-processing.
+* `lime_bf_loop.m` is the file for tuning the parameters for the bilateral filter, i. e. `ds`, `ss`. By default, `lime_bf_loop.m` is used for post-processing.
 
 * `histeq_all.m` is the file for generating the results of applying histogram equalization, on the raw image, in five different ways.
 
